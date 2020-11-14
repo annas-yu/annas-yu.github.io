@@ -1,13 +1,126 @@
-#testing-kyle {
-    color: #1234;
+:root {
+  /* Colors: */
+  --unnamed-color-f4d99e: #f4d99e;
+  --unnamed-color-c5b085: #c5b085;
+  --unnamed-color-d48868: #d48868;
+  --unnamed-color-707070: #707070;
+  --unnamed-color-000000: #000000;
+  --unnamed-color-ffffff: #ffffff;
+  --unnamed-color-a1ac9c: #a1ac9c;
+
+  /* Font/text values */
+  --unnamed-font-family-plantin-mt-pro: Plantin MT Pro;
+  --unnamed-font-family-helvetica-neue: Helvetica Neue;
+  --unnamed-font-style-italic: italic;
+  --unnamed-font-style-normal: normal;
+  --unnamed-font-weight-300: 300px;
+  --unnamed-font-weight-600: 600px;
+  --unnamed-font-weight-bold: bold;
+  --unnamed-font-weight-medium: medium;
+  --unnamed-font-size-15: 15px;
+  --unnamed-font-size-17: 17px;
+  --unnamed-font-size-20: 20px;
+  --unnamed-font-size-57: 57px;
+  --unnamed-font-size-74: 74px;
+  --unnamed-character-spacing-0: 0px;
+  --unnamed-character-spacing-1-85: 1.85px;
+  --unnamed-character-spacing-0-42: 0.42px;
+  --unnamed-character-spacing-0-5: 0.5px;
+  --unnamed-line-spacing-18: 18px;
+  --unnamed-line-spacing-21: 21px;
+  --unnamed-line-spacing-24: 24px;
+  --unnamed-line-spacing-79: 79px;
+  --unnamed-line-spacing-90: 90px;
 }
 
-.anna-icon {
-    top: 64px;
-    left: 1233px;
-    width: 30px;
-    height: 30px;
-    background: var(--unnamed-color-707070) 0% 0% no-repeat padding-box;
-    background: #707070 0% 0% no-repeat padding-box;
-    opacity: 1;
+.unnamed-character-style-1 {
+  font-family: var(--unnamed-font-family-helvetica-neue);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-300);
+  font-size: var(--unnamed-font-size-20);
+  line-height: var(--unnamed-line-spacing-24);
+  letter-spacing: var(--unnamed-character-spacing-0-5);
+  color: var(--unnamed-color-000000);
+}
+.unnamed-character-style-2 {
+  font-family: var(--unnamed-font-family-helvetica-neue);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-medium);
+  font-size: var(--unnamed-font-size-17);
+  line-height: var(--unnamed-line-spacing-21);
+  letter-spacing: var(--unnamed-character-spacing-0-42);
+  color: var(--unnamed-color-000000);
+}
+.unnamed-character-style-3 {
+  font-family: var(--unnamed-font-family-plantin-mt-pro);
+  font-style: var(--unnamed-font-style-italic);
+  font-weight: var(--unnamed-font-weight-600);
+  font-size: var(--unnamed-font-size-57);
+  line-height: var(--unnamed-line-spacing-79);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-000000);
+}
+.unnamed-character-style-4 {
+  font-family: var(--unnamed-font-family-helvetica-neue);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-bold);
+  font-size: var(--unnamed-font-size-74);
+  line-height: var(--unnamed-line-spacing-90);
+  letter-spacing: var(--unnamed-character-spacing-1-85);
+  color: var(--unnamed-color-000000);
+}
+
+#NavBar {
+  position: fixed;
+  display: flex;
+  padding-left: 130px;
+  padding-right: 130px;
+  margin-top: 40.48px;
+  width: -webkit-fill-available;
+  width: -moz-available;
+}
+
+#NavBar .link {
+  margin-right: 40px;
+  margin-top: auto;
+  margin-bottom: auto;
+  text-decoration: none;
+
+  /* generated */
+  font-family: var(--unnamed-font-family-helvetica-neue);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-medium);
+  font-size: var(--unnamed-font-size-15);
+  line-height: var(--unnamed-line-spacing-18);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-707070);
+}
+
+#NavBar .link:hover {
+  -webkit-text-stroke: 1px black;
+}
+
+#NavBar .link::before {
+  content: attr(title);
+  font-weight: bold;
+  height: 0;
+  visibility: hidden;
+}
+
+#NavBar #HomeIcon {
+  height: 56.05px;
+  width: 175.9px;
+  margin-right: auto;
+}
+
+#NavBar .icon {
+  height: 17px;
+  width: 17px;
+  margin-right: 7px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#NavBar .icon:hover {
+  filter: invert(50%)
 }
