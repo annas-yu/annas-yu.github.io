@@ -194,7 +194,7 @@
 }
 
 /* green box and art link */
-#greenBox {
+#green-box {
   position: absolute;
   top: 0px;
   left: 0px;
@@ -225,7 +225,7 @@
 }
 
 /* red box and design link */
-#redBox {
+#red-box {
   position: absolute;
   top: 450px;
   right: 0px;
