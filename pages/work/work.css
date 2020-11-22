@@ -45,8 +45,12 @@
 }
 
 #work-body .image-title-text {
-  font: var(--unnamed-font-style-normal) normal normal
-    43px/52px var(--unnamed-font-family-helvetica-neue);
+  /* font: var(--unnamed-font-style-normal) normal normal
+    43px/52px var(--unnamed-font-family-helvetica-neue); */
+  /* font: normal normal medium 43px/52px; */
+  font-size: 43px;
+  line-height: 52px;
+  font-family: HelveticaNeue-Medium;
   color: var(--unnamed-color-000000);
   text-align: left;
   letter-spacing: 1.07px;
@@ -54,8 +58,10 @@
 }
 
 #work-body .image-subtitle-text {
-  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-300)
-    var(--unnamed-font-size-17) / 20px var(--unnamed-font-family-helvetica-neue);
+  /* font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-300)
+    var(--unnamed-font-size-17) / 20px var(--unnamed-font-family-helvetica-neue); */
+  font: normal normal 300 17px/20px "Helvetica Neue";
+  /* font-family: HelveticaNeue-Medium; */
   letter-spacing: var(--unnamed-character-spacing-0-42);
   color: var(--unnamed-color-000000);
   text-align: right;
