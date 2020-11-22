@@ -1,0 +1,166 @@
+#design-body {
+    margin-top: 216px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2403px;
+    width: 1148px;
+}
+
+.design-label {
+    margin-left: 101px;
+    margin-bottom: 46px;
+}
+
+.design-label-text {
+    font: normal normal bold 49px/60px Helvetica Neue;
+    letter-spacing: 1.23px;
+    color: #000000;
+    opacity: 1;
+}
+
+.design-label-black-box {
+    width: 160px;
+    height: 18px;
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#design-body .gallary {
+    position: relative;
+}
+
+#design-body .img-1 {
+    position: absolute;
+    top: 0;
+    left: 66px;
+    width: 491px;
+    height: 317px;
+}
+
+#design-body .img-2 {
+    position: absolute;
+    top: 0;
+    left: 584px;
+    width: 491px;
+    height: 317px;
+}
+
+#design-body .img-3 {
+    position: absolute;
+    top: 492px;
+    left: 0;
+    width: 688px;
+    height: 490px;
+}
+
+#design-body .img-4 {
+    position: absolute;
+    top: 1109px;
+    left: 53px;
+    width: 629px;
+    height: 472px;
+}
+
+#design-body .img-5 {
+    position: absolute;
+    top: 1631px;
+    left: 622px;
+    width: 526px;
+    height: 472px;
+}
+
+#design-body .title-text {
+    text-align: left;
+    /* font: italic normal 600 57px/79px "Plantin MT Pro"; */
+    font-style: italic;
+    font-size: 57px;
+    font-family: Plantin MT Pro;
+    line-height: 79px;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+#design-body .sub-title-text {
+    margin-top: 20px;
+    text-align: left;
+    font-size: 17px;
+    line-height: 21px;
+    font-family: Helvetica Neue;
+    letter-spacing: 0.42px;
+    color: #000000;
+    opacity: 1;
+}
+
+#design-body .title-1 {
+    position: absolute;
+    top: 348px;
+    left: 227px;
+    font-size: 40px;
+    line-height: 56px;
+}
+
+#design-body .sub-1 {
+    position: absolute;
+    top: 388px;
+    left: 339px;
+    margin-top: 10px;
+}
+
+#design-body .title-2 {
+    position: absolute;
+    top: 737px;
+    left: 746px;
+}
+
+#design-body .sub-2 {
+    position: absolute;
+    top: 784px;
+    left: 918px;
+}
+
+#design-body .title-3 {
+    position: absolute;
+    top: 1439px;
+    left: 731px;
+}
+
+#design-body .sub-3 {
+    position: absolute;
+    top: 1486px;
+    left: 746px;
+}
+
+#design-body .title-4 {
+    position: absolute;
+    top: 1976px;
+    left: 369px;
+}
+
+#design-body .sub-4 {
+    position: absolute;
+    top: 2023px;
+    left: 423px;
+}
+
+#design-body .green-box {
+    position: absolute;
+    top: 151px;
+    left: 402px;
+    background: var(--unnamed-color-a1ac9c) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: 488px;
+    height: 722px;
+    z-index: -1;
+}
+
+#design-body .yellow-box {
+    position: absolute;
+    top: 1373px;
+    left: 291px;
+    background: var(--unnamed-color-f4d99e) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: 507px;
+    height: 564px;
+    z-index: -1;
+}
