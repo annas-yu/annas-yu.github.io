@@ -1,0 +1,45 @@
+#about-body {
+    position: relative;
+    margin-top: 222px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1052px;
+}
+
+#about-body .yellow-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 450px;
+    height: 565px;
+    background: var(--unnamed-color-f4d99e) 0% 0% no-repeat padding-box;
+}
+
+#about-body .title {
+    position: absolute;
+    top: 17px;
+    left: 509px;
+    text-align: left;
+    font: italic normal 600 45px/63px Plantin MT Pro;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+#about-body .content {
+    position: absolute;
+    top: 96px;
+    left: 509px;
+    width: 533px;
+    height: 283px;
+    text-align: left;
+    font: normal normal 300 17px/20px Helvetica Neue;
+    letter-spacing: 0.42px;
+    color: #000000;
+}
+
+#contact-form {
+    position: absolute;
+    left: 509px;
+    top: 440px;
+}

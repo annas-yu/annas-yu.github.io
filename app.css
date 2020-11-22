@@ -115,12 +115,15 @@
   margin-right: auto;
 }
 
+#nav a {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 #nav .icon {
   height: 17px;
   width: 17px;
   margin-right: 7px;
-  margin-top: auto;
-  margin-bottom: auto;
   filter: invert(40%);
 }
 
