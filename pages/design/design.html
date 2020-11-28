@@ -5,6 +5,7 @@
     <title>Anna Website</title>
     <link href="design.css" rel="stylesheet" type="text/css">
     <link href="../../app.css" rel="stylesheet" type="text/css">
+    <script src="../../app.js"></script> 
 </head>
 
 <body>
@@ -66,7 +67,8 @@
             <a href="https://www.linkedin.com/in/anna-yu-289058158" target="_blank">
                 <img class="icon" src="../../assets/icons/linkedin.svg">
             </a>
-            <img class="icon" src="../../assets/icons/mail.svg">
+            <img class="icon" onClick="copy()" src="../../assets/icons/mail.svg">
+            <div id="snackbar">Copied email to clipboard</div>
         </div>
     </div>
 </body>

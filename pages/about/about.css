@@ -43,3 +43,9 @@
     left: 509px;
     top: 440px;
 }
+
+.about-footer {
+    position: relative;
+    padding-top: 800px;
+    margin-top: unset !important;
+}

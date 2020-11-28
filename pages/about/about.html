@@ -5,6 +5,7 @@
     <title>Anna Website</title>
     <link href="about.css" rel="stylesheet" type="text/css">
     <link href="../../app.css" rel="stylesheet" type="text/css">
+    <script src="../../app.js"></script> 
 </head>
 
 <body>
@@ -43,15 +44,21 @@
             nother and having a chat over some coffee (or on Zoom) is super important 
             to me, so please reach out to chat!
         </div>
-        <!-- <form id="contact-form" action="/action_page.php">
-            <label for="name">Name</label><br>
-            <input type="text" name="name" value="Name"><br>
-            <label for="email">Email</label><br>
-            <input type="text" name="email" value="Doe"><br><br>
-            <label for="message">Message</label><br>
-            <input type="text" name="message" value="Doe"><br><br>
-            <input type="submit" value="Submit">
-        </form>  -->
+    </div>
+
+    <div id="footer" class="about-footer">
+        <div class="box"></div>
+        <div id="footer-text">Connect with me!</div>
+        <div id="footer-links">
+            <a href="https://www.instagram.com/a.yudesign" target="_blank">
+                <img class="icon" src="../../assets/icons/instagram.svg">
+            </a>
+            <a href="https://www.linkedin.com/in/anna-yu-289058158" target="_blank">
+                <img class="icon" src="../../assets/icons/linkedin.svg">
+            </a>
+            <img class="icon" onClick="copy()" src="../../assets/icons/mail.svg">
+            <div id="snackbar">Copied email to clipboard</div>
+        </div>
     </div>
 </body>
 </html>
