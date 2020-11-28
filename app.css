@@ -182,6 +182,7 @@
 }
 
 #intro .title-inverted-text {
+  padding-left: 4px;
   font-family: var(--unnamed-font-family-helvetica-neue);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-bold);
@@ -192,11 +193,11 @@
   color: var(--unnamed-color-ffffff);
   font: normal normal bold 74px/90px Helvetica Neue;
   opacity: 1;
+  transition: .5s;
 }
 
 #intro .title-inverted-text:hover {
   color: var(--unnamed-color-000000);
-  -webkit-text-stroke: unset;
   background-color: var(--unnamed-color-a1ac9c);
 }
 
@@ -209,13 +210,37 @@
   background-color: var(--unnamed-color-000000);
 }
 
+#intro .sub-title-block {
+  pointer-events: none;
+}
+
+#intro .sub-title {
+  pointer-events: auto;
+  display: inline;
+}
+
+#intro .sub-title-block:hover + .white-cover {
+  transform: translateX(685px)
+}
+
 #stroke {
+  position: absolute;
+  top: 188px;
+  right: -80px;
+  z-index: -2;
+  width: 685px;
+  height: 342px;
+}
+
+#intro .white-cover {
   position: absolute;
   top: 188px;
   right: -80px;
   z-index: -1;
   width: 685px;
   height: 342px;
+  background-color:white;
+  transition: transform 1s;
 }
 
 #intro .left-margin {
