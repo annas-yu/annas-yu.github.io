@@ -6,13 +6,24 @@
     width: 1052px;
 }
 
-#about-body .yellow-box {
+#about-body .picture {
     position: absolute;
     top: 0;
     left: 0;
     width: 450px;
     height: 565px;
-    background: var(--unnamed-color-f4d99e) 0% 0% no-repeat padding-box;
+} 
+
+#about-body .caption {
+    position: absolute;
+    top: 570px;
+    left: 0;
+    width: 533px;
+    height: 283px;
+    text-align: left;
+    font: normal normal 400 17px/20px Helvetica Neue;
+    letter-spacing: 0.42px;
+    color: #707070;
 }
 
 #about-body .title {
@@ -38,10 +49,16 @@
     color: #000000;
 }
 
-#contact-form {
+#about-body .email {
     position: absolute;
+    top: 380px;
     left: 509px;
-    top: 440px;
+    width: 533px;
+    height: 283px;
+    text-align: left;
+    font: normal normal 400 30px/63px Plantin MT Pro;
+    letter-spacing: 0.42px;
+    color: #000000;
 }
 
 .about-footer {
