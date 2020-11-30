@@ -244,7 +244,6 @@
   z-index: -1;
   width: 685px;
   height: 342px;
-  background-color:white;
   overflow-x: hidden;
   transition: transform 1s;
 }
