@@ -196,7 +196,7 @@
   letter-spacing: var(--unnamed-character-spacing-1-85);
   -webkit-text-stroke: 3px var(--unnamed-color-000000);
   color: var(--unnamed-color-ffffff);
-  font: normal normal bold 74px/90px Helvetica Neue;
+  font: normal normal bold 74px/90px Helvetica;
   opacity: 1;
   transition: .5s;
 }
