@@ -1,4 +1,5 @@
 #about-body {
+    z-index: 1;
     position: relative;
     margin-top: 222px;
     margin-left: auto;
@@ -62,8 +63,9 @@
 }
 
 .about-footer {
+    pointer-events: auto;
     position: relative;
-    z-index: -1;
+    z-index: 0;
     padding-top: 800px;
     margin-top: unset !important;
 }
