@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Anna Website</title>
+    <title>Anna's Website</title>
     <link href="art.css" rel="stylesheet" type="text/css">
     <link href="../../app.css" rel="stylesheet" type="text/css">
     <link rel="shortcut icon" href="../../assets/icons/tabimg.png" />
@@ -38,14 +38,14 @@
             <div class="art-label-black-box"></div>
         </div>
         <div class="gallary">
-            <img class="img-1" src="assets/IMG_20200422_184251-01.jpeg">
-            <img class="img-2" src="assets/identity-min.jpg">
-            <img class="img-3" src="assets/IMG_20191217_093601.jpg">
-            <img class="img-4" src="assets/ShirleyYu_Venus.jpg">
-            <img class="img-5" src="assets/yu_shirley_etch.jpg">
-            <img class="img-6" src="assets/yu_shirley_surreal.jpg">
-            <img class="img-7" src="assets/Copy of IMG_20190908_084219-01.jpeg">
-            <img class="img-8" src="assets/yu_shirley_oil.jpg">
+            <img class="img-1" onClick="explode('img-1')" src="assets/IMG_20200422_184251-01.jpeg">
+            <img class="img-2" onClick="explode('img-2')" src="assets/identity-min.jpg">
+            <img class="img-3" onClick="explode('img-3')" src="assets/IMG_20191217_093601.jpg">
+            <img class="img-4" onClick="explode('img-4')" src="assets/ShirleyYu_Venus.jpg">
+            <img class="img-5" onClick="explode('img-5')" src="assets/yu_shirley_etch.jpg">
+            <img class="img-6" onClick="explode('img-6')" src="assets/yu_shirley_surreal.jpg">
+            <img class="img-7" onClick="explode('img-7')" src="assets/Copy of IMG_20190908_084219-01.jpeg">
+            <img class="img-8" onClick="explode('img-8')" src="assets/yu_shirley_oil.jpg">
             <div class="red-box"></div>
         </div>
     </div>
@@ -56,14 +56,19 @@
             <div class="art-label-black-box"></div>
         </div>
         <div class="gallary">
-            <img class="img-1" src="assets/blah.jpg">
-            <img class="img-2" src="assets/proj3.jpg">
-            <img class="img-3" src="assets/DFF73B22-D85A-417E-9F4D-579C30BFAE49.png">
-            <img class="img-4" src="assets/bubble.jpg">
-            <img class="img-5" src="assets/laptopwitharmout.jpg">
-            <img class="img-6" src="assets/mirror.jpg">
+            <img class="img-9" onClick="explode('img-9')" src="assets/blah.jpg">
+            <img class="img-10" onClick="explode('img-10')" src="assets/proj3.jpg">
+            <img class="img-11" onClick="explode('img-11')" src="assets/DFF73B22-D85A-417E-9F4D-579C30BFAE49.png">
+            <img class="img-12" onClick="explode('img-12')" src="assets/bubble.jpg">
+            <img class="img-13" onClick="explode('img-13')" src="assets/laptopwitharmout.jpg">
+            <img class="img-14" onClick="explode('img-14')" src="assets/mirror.jpg">
             <div class="grey-box"></div>
         </div>
+    </div>
+
+    <div id="myModal" class="modal">
+        <span class="close" onclick="closeExplode()">&times;</span>
+        <img class="modal-content" id="exploded-image">
     </div>
 
     <!-- Footer -->

@@ -63,6 +63,7 @@
 
 .about-footer {
     position: relative;
+    z-index: -1;
     padding-top: 800px;
     margin-top: unset !important;
 }
