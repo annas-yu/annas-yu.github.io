@@ -102,10 +102,13 @@
   -webkit-text-stroke: 1px black;
 }
 
+#nav .home-link {
+  margin-right: auto;
+}
+
 #nav #home {
   height: 56.05px;
   width: 175.9px;
-  margin-right: auto;
 }
 
 #nav a {
