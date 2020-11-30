@@ -260,7 +260,7 @@
 }
 
 /* green box and art link */
-#green-box {
+/* #green-box {
   position: absolute;
   top: 0px;
   left: 0px;
@@ -293,10 +293,10 @@
   top: 199px;
   left: 279px;
   z-index: 2;
-}
+} */
 
 /* red box and design link */
-#red-box {
+/* #red-box {
   position: absolute;
   top: 450px;
   right: 0px;
@@ -327,12 +327,12 @@
   position: absolute;
   top: 274px;
   left: 11px;
-  z-index: 2;
-}
+  z-index: 2; 
+}*/
 
 /* Footer */
 #footer {
-  margin-top: 1250px;
+  margin-top: 300px;
   margin-bottom: 239px;
   text-align: center;
 }

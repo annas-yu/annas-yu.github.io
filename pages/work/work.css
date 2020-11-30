@@ -101,6 +101,11 @@
   margin-left: 240px;
   width: 491px;
   height: 314px;
+  transition: box-shadow .3s;
+}
+
+.image:hover {
+  box-shadow: 10px 10px 10px 10px #0000002f;
 }
 
 body .work-footer {
