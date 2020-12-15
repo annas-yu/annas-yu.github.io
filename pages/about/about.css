@@ -40,24 +40,12 @@
 
 #about-body .content {
     position: absolute;
-    top: 96px;
+    top: 110px;
     left: 509px;
     width: 533px;
-    height: 283px;
+    height: 350px;
     text-align: left;
-    font: normal normal 300 17px/20px Helvetica;
-    letter-spacing: 0.42px;
-    color: #000000;
-}
-
-#about-body .email {
-    position: absolute;
-    top: 380px;
-    left: 509px;
-    width: 533px;
-    height: 283px;
-    text-align: left;
-    font: normal normal 400 30px/63px Plantin MT Pro;
+    font: normal normal 300 20px/22px Helvetica;
     letter-spacing: 0.42px;
     color: #000000;
 }

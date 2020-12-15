@@ -20,8 +20,8 @@
   --unnamed-font-size-15: 15px;
   --unnamed-font-size-17: 17px;
   --unnamed-font-size-20: 20px;
-  --unnamed-font-size-57: 57px;
-  --unnamed-font-size-74: 74px;
+  --unnamed-font-size-57: 65px;
+  --unnamed-font-size-74: 100px;
   --unnamed-character-spacing-0: 0px;
   --unnamed-character-spacing-1-85: 1.85px;
   --unnamed-character-spacing-0-42: 0.42px;
@@ -30,7 +30,7 @@
   --unnamed-line-spacing-21: 21px;
   --unnamed-line-spacing-24: 24px;
   --unnamed-line-spacing-79: 79px;
-  --unnamed-line-spacing-90: 90px;
+  --unnamed-line-spacing-90: 120px;
 }
 
 .unnamed-character-style-1 {
@@ -194,9 +194,8 @@
   font-size: var(--unnamed-font-size-74);
   line-height: var(--unnamed-line-spacing-90);
   letter-spacing: var(--unnamed-character-spacing-1-85);
-  -webkit-text-stroke: 3px var(--unnamed-color-000000);
+  -webkit-text-stroke: 4px var(--unnamed-color-000000);
   color: var(--unnamed-color-ffffff);
-  font: normal normal bold 74px/90px Helvetica;
   opacity: 1;
   transition: .5s;
 }
@@ -230,22 +229,22 @@
 
 #stroke {
   position: absolute;
-  bottom: -45px;
+  bottom: -50px;
   right: -80px;
   z-index: -2;
-  width: 685px;
-  height: 342px;
+  width: 754px;
+  height: 376px;
 }
 
 #intro .white-cover {
   position: absolute;
-  bottom: -45px;
+  bottom: -50px;
   right: -80px;
   z-index: -1;
-  width: 685px;
-  height: 342px;
+  width: 754px;
+  height: 376px;
   overflow-x: hidden;
-  transition: transform 1s;
+  transition: transform .8s;
 }
 
 #intro .left-margin {
@@ -362,6 +361,11 @@
 #footer .icon {
   height: 25px;
   width: 25px;
+  cursor: pointer;
+}
+
+#footer .icon:hover {
+  filter: invert(40%);
 }
 
 #snackbar {
@@ -375,7 +379,7 @@
   padding: 16px; /* Padding */
   position: fixed; /* Sit on top of the screen */
   z-index: 5; /* Add a z-index if needed */
-  left: 50%; /* Center the snackbar */
+  left: calc(50% - 158px); /* Center the snackbar */
   bottom: 30px; /* 30px from the bottom */
 
   font-family: var(--unnamed-font-family-helvetica-neue);

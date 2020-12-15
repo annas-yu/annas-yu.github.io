@@ -1,5 +1,5 @@
 function copy() {
-    navigator.clipboard.writeText("shirley.yua@gmail.com").then(function () {
+    navigator.clipboard.writeText("s.annayu@utexas.edu").then(function () {
         /* clipboard successfully set */
         showSnackBar()
     }, function () { });
