@@ -33,13 +33,13 @@ function dragElement(elmnt) {
         let screen = document.getElementById('screen')
         let screenRect = screen.getBoundingClientRect()
         let cake = document.getElementById('cake')
-        if (top < screenRect.top) {
+        if (top < 0) {
             return false
-        } else if (left < screenRect.left) {
+        } else if (left < 0) {
             return false
-        } else if (left + cake.offsetWidth > screenRect.left + screen.offsetWidth) {
+        } else if (left + cake.offsetWidth >  screenRect.width) {
             return false
-        } else if (top + cake.offsetHeight > screenRect.top + screen.offsetHeight) {
+        } else if (top + cake.offsetHeight > screenRect.height) {
             return false
         } else {
             return true
@@ -95,8 +95,6 @@ function isOverlapping(e1, e2) {
     const rect1 = e1 instanceof Element ? e1.getBoundingClientRect() : false;
     const rect2 = e2 instanceof Element ? e2.getBoundingClientRect() : false;
 
-    console.log(rect1, rect2);
-
     let overlap = false;
 
     if (rect1 && rect2) {
@@ -109,6 +107,5 @@ function isOverlapping(e1, e2) {
         return overlap;
     }
 
-    console.warn('Please provide valid HTMLElement object');
     return overlap;
 }

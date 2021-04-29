@@ -45,7 +45,10 @@
     position:relative;
     height: 750px;
     width: 350px;
-    border-width: 5x;
+    margin: auto;
+    /* border-width: 1px;
     border-color: black;
-    border-style: solid;
+    border-style: solid; */
+    background-image: url("assets/frame.png");
+    background-size:cover;
 }
