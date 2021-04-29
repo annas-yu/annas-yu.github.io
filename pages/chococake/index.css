@@ -1,0 +1,51 @@
+#sadGirl{
+    position:absolute;
+    width:350px;
+    height:auto;
+    bottom:40%;
+    opacity: 100%;
+}
+
+#cake{
+    position:absolute;
+    left:135px;
+    width:70px;
+    height:auto;
+    bottom:10%;
+}
+
+#plate{
+    position:absolute;
+    left:115px;
+    top: 425px;
+    width:120px;
+    height:auto;
+}
+
+#happyGirl{
+    position:absolute;
+    width:589px;
+    height:auto;
+    left: -124px;
+    bottom:26.2%;
+    opacity: 0%;
+}
+
+#AOE {
+    position:absolute;
+    height: 1px;
+    width: 10px;
+    top: 415px;
+    left:170px;
+    background-color: #555;
+    opacity: 00%;
+}
+
+#screen {
+    position:relative;
+    height: 750px;
+    width: 350px;
+    border-width: 5x;
+    border-color: black;
+    border-style: solid;
+}
