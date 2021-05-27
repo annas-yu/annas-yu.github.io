@@ -15,15 +15,9 @@
             <img id="home" src="assets/main/web_header.png">
         </a>
         <a class="link" href="#">HOME</a>
-        <div class="dropdown">
-            <a class="link" href="pages/work/work.html">WORK</a>
-            <div class="dropdown-content">
-                <a href="pages/art/art.html">ART</a>
-                <a href="pages/design/design.html">DESIGN</a>
-            </div>
-        </div>
+        <a class="link" onClick="scroll2Work()">WORK</a>
         <a class="link" href="pages/about/about.html">ABOUT</a>
-        <a href="https://www.instagram.com/a.yudesign" target="_blank">
+        <a href="https://www.instagram.com/annasyu.me/" target="_blank">
             <img class="icon" src="assets/icons/instagram.svg">
         </a>
         <a href="https://www.linkedin.com/in/anna-yu-289058158/" target="_blank">
@@ -41,8 +35,10 @@
         <div class="sub-title-block">
             <div class="sub-text-font sub-title">artist, designer, student</div>
         </div>
-        <img class=white-cover src="assets/main/stroke1.png">
-        <span><img id=stroke src="assets/main/stroke.png"></span>
+        <img class="stroke-cover " src="assets/main/stroke1.png">
+        <img id="stroke" src="assets/main/stroke.png">
+        <div class="scroll-text" onClick="scroll2Work()">▼ go to gallery</div>
+
     </div>
 
     <!-- Transition -->
@@ -63,12 +59,26 @@
         </div>
     </div> -->
 
+    <div id="work-body">
+        <div class="yellow-box"></div>
+        <div class="title">WORKS</div>
+        <div class="black-box"></div>
+
+        <div class="work-art-link">
+            <div class="art-title image-title-text">arboretum</div>
+            <div class="art-subtitle image-subtitle-text">Misc. pieces<br>traditional & digital mediums<br>2018-present</div>
+            <a href="pages/art/art.html"><img class="image" src="assets/main/work-art.jpg"></a>
+        </div>
+
+        <div class="progress-text">this section is still under construction! :)</div>
+    </div>
+
     <!-- Footer -->
     <div id="footer">
         <div class="box"></div>
         <div id="footer-text">Connect with me!</div>
         <div id="footer-links">
-            <a href="https://www.instagram.com/a.yudesign" target="_blank">
+            <a href="https://www.instagram.com/annasyu.me/" target="_blank">
                 <img class="icon" src="assets/icons/instagram.svg">
             </a>
             <a href="https://www.linkedin.com/in/anna-yu-289058158" target="_blank">
