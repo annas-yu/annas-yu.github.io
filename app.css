@@ -100,6 +100,8 @@
 
 #nav .link:hover {
   -webkit-text-stroke: 1px black;
+  color: #000000;
+  cursor: pointer;
 }
 
 #nav .home-link {
@@ -586,7 +588,12 @@
 #work-body .image {
   margin-left: 290px;
   width: 500px;
-  transition: box-shadow .3s;
+  transition: transform .4s;
+  cursor: pointer;
+}
+
+.image:hover {
+  transform: scale(1.05); 
 }
 
 #work-body .freetail-link {
@@ -639,10 +646,6 @@
   position: absolute;
   top: 270px;
   right: 510px;
-}
-
-.image:hover {
-  box-shadow: 1vh 1vh 1vh 1vh #0000002f;
 }
 
 #work-body .progress-text{

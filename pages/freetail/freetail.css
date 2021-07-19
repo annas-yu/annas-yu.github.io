@@ -1,24 +1,25 @@
 .content-font{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 2.2vh;
+    font-size: 15px;
 }
 
 #freetail-intro {
-    margin-top: 25vh;
-    width: 75vw;
-    margin-left: auto;
-    margin-right: auto;
+    position: relative;
+    top: 200px;
+    width: 920px;
+    height: 370px;
+    margin: auto;
 }
 
 #freetail-intro .logoimg {
-    width: 25vw;
+    position: absolute;
+    width: 350px;
 }
 
 #freetail-intro .content{
     position: absolute;
-    top: 26vh;
-    left: 40vw;
-    width: 45vw;
+    left: 370px;
+    width: 550px;
 }
 
 a {
@@ -27,41 +28,39 @@ a {
     font-weight: 500;
 }
 
-#learnathon{
+#learnathon {
     position: relative;
-    margin-top: 25vh;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0vh;
-    width: 100vw;
-    height: 255vh;
+    top: 400px;
+    margin: auto;
+    width: 1030px;
+    height: 2170px;
 }
 
 #learnathon .header{
     position: absolute;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 500;
-    font-size: 5vh;
-    top: 0vh;
-    left: 20vw;
+    font-size: 35px;
+    top: 0px;
+    left: 120px;
 }
 
 #learnathon .headerUnderline{
     position: absolute;
-    top: 6vh;
-    left: 20vw;
-    width: 35vw;
-    height: .75vh;
+    top: 40px;
+    left: 120px;
+    width: 600px;
+    height: 5px;
     background: var(--unnamed-color-000000) 0% 0% no-repeat padding-box;
     opacity: 1;
 }
 
 #learnathon .greenBox{
     position: absolute;
-    top: 20vh;
-    left: 10vw;
-    width: 60vw;
-    height: 110vh;
+    top: 180px;
+    left: 0px;
+    width: 850px;
+    height: 900px;
     background: var(--unnamed-color-a1ac9c) 0% 0% no-repeat padding-box;
     opacity: 1;
     z-index: -1;
@@ -69,10 +68,10 @@ a {
 
 #learnathon .redBox{
     position: absolute;
-    top: 3vh;
-    left: 45vw;
-    width: 40vw;
-    height: 228vh;
+    top: 12px;
+    left: 480px;
+    width: 550px;
+    height: 1600px;
     background: var(--unnamed-color-d48868) 0% 0% no-repeat padding-box;
     opacity: 1;
     z-index: -2;
@@ -80,66 +79,68 @@ a {
 
 #learnathon .content1{
     position: absolute;
-    top: 30vh;
-    left: 15vw;
+    top: 210px;
+    left: 60px;
     text-align: right;
-    width: 30vw;
+    width: 430px;
 }
 
 #learnathon .frogGif{
     position: absolute;
-    top: 15vh;
-    left: 48vw;
-    width: 30vw;
+    top: 120px;
+    left: 530px;
+    width: 400px;
 }
 
 #learnathon .content2{
     position: absolute;
-    top: 90vh;
-    left: 30vw;
+    top: 600px;
+    left: 230px;
     text-align: center;
-    width: 40vw;
+    width: 600px;
 }
 
 #learnathon .website{
     position: absolute;
-    left: 25vw;
-    top: 110vh;
+    left: 180px;
+    top: 720px;
 }
 
 iframe{
+    position: absolute;
     border: 2px solid white;
-    width: 50vw;
-    height: 30vw;
+    width: 700px;
+    height: 400px;
 }
 
 #learnathon .content3{
     position: absolute;
-    top: 195vh;
-    left: 55vw;
-    width: 25vw;
+    top: 1340px;
+    left: 610px;
+    width: 380px;
 }
 
 #learnathon .gallery{
     position: absolute;
-    top: 180vh;
-    left: 15vw;
+    top: 1270px;
+    left: 50px;
 }
 
 video{
-    height: 70vh;
+    position: absolute;
+    height: 500px;
 }
 
 #learnathon .frame1{
     position: absolute;
-    top:0vh;
-    left: 20vw;
-    height: 33vh;
+    top: 0px;
+    left: 290px;
+    height: 240px;
 }
 
 #learnathon .frame2{
     position: absolute;
-    left:20vw;
-    top:37vh;
-    height: 33vh;
+    left:290px;
+    top:260px;
+    height: 240px;
 }
