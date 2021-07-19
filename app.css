@@ -194,7 +194,7 @@
   font-size: var(--unnamed-font-size-74);
   line-height: var(--unnamed-line-spacing-90);
   letter-spacing: var(--unnamed-character-spacing-1-85);
-  -webkit-text-stroke: 4px var(--unnamed-color-000000);
+  -webkit-text-stroke: .5vh var(--unnamed-color-000000);
   color: var(--unnamed-color-ffffff);
   opacity: 1;
   transition: .5s;
@@ -360,7 +360,7 @@
   font-style: var(--unnamed-font-style-italic);
   font-weight: var(--unnamed-font-weight-400);
   font-size: 29px;
-  line-height: var(--unnamed-line-spacing-79);
+  line-height: 79px;
   letter-spacing: var(--unnamed-character-spacing-0);
   color: var(--unnamed-color-000000);
 }
@@ -523,15 +523,17 @@
 
 #work-body {
   position: relative;
+  width: 850px;
+  height: 1200px;
+  margin: auto;
   margin-top: 25vh;
-  margin-left: 23vw;
 }
 
 #work-body .yellow-box {
   /* top: 0; */
-  left: 0vw;
-  width: 30vw;
-  height: 170vh;
+  position: absolute;
+  width: 425px;
+  height: 1200px;
   background: var(--unnamed-color-f4d99e) 0% 0% no-repeat padding-box;
   background: #f4d99e 0% 0% no-repeat padding-box;
   opacity: 1;
@@ -539,10 +541,10 @@
 
 #work-body .title {
   position: absolute;
-  top: 10vh;
-  left: 24vw;
+  top: 70px;
+  left: 350px;
   font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
-    6vh/8vh var(--unnamed-font-family-helvetica-neue);
+    40px/60px var(--unnamed-font-family-helvetica-neue);
   color: var(--unnamed-color-000000);
   text-align: left;
   letter-spacing: 1.23px;
@@ -552,19 +554,19 @@
 
 #work-body .black-box {
   position: absolute;
-  top: 17vh;
-  left: 24vw;
-  width: 15vw;
-  height: 1vh;
+  top: 120px;
+  left: 350px;
+  width: 200px;
+  height: 5px;
   background: var(--unnamed-color-000000) 0% 0% no-repeat padding-box;
   opacity: 1;
   z-index: 1;
 }
 
 #work-body .image-title-text {
-  font-size: 4.5vh;
+  font-size: 35px;
   font-weight: 500;
-  line-height: 5vh;
+  line-height: 30px;
   font-family: Helvetica;
   color: var(--unnamed-color-000000);
   text-align: right;
@@ -573,70 +575,70 @@
 }
 
 #work-body .image-subtitle-text {
-  font: normal normal 300 2.5vh/2.5vh "Helvetica";
+  font: normal normal 300 18px/18px "Helvetica";
   letter-spacing: var(--unnamed-character-spacing-0-42);
   color: var(--unnamed-color-000000);
   text-align: right;
-  line-height: 3vh;
+  line-height: 20px;
   opacity: 1;
 
 }
 #work-body .image {
-  margin-left: 20vw;
-  width: 35vw;
+  margin-left: 290px;
+  width: 500px;
   transition: box-shadow .3s;
 }
 
 #work-body .freetail-link {
   position: absolute;
-  top: 20vh;
-  left: 4vw;
+  top: 150px;
+  left: 60px;
 }
 
 #work-body .freetail-line {
   position: absolute;
   border-left: 1px solid black;
-  top: 1vh;
-  left: 19vw;
-  height: 34vh;
+  top: 10px;
+  left: 270px;
+  height: 230px;
 }
 
 #work-body .freetail-title {
   position: absolute;
-  top: 36vh;
-  right: 35.7vw;
+  top: 250px;
+  right: 510px;
 }
 
 #work-body .freetail-subtitle {
   position: absolute;
-  top: 41vh;
-  right: 35.7vw;
+  top: 290px;
+  right: 510px;
 }
 
 #work-body .work-art-link {
   position: absolute;
-  top: 70vh;
-  left: 4vw;
+  top: 500px;
+  left: 60px;
 }
 
 #work-body .art-line {
   position: absolute;
   border-left: 1px solid black;
-  top: 1vh;
-  left: 19vw;
-  height: 32vh;
+  top: 10px;
+  left: 270px;
+  height: 210px;
 }
 
 #work-body .art-title {
   position: absolute;
-  top: 33vh;
-  right: 35.7vw;
+  top: 230px;
+  right: 510px;
 }
 
 #work-body .art-subtitle {
   position: absolute;
-  top: 38vh;
-  right: 35.7vw;
+  top: 270px;
+  right: 510px;
 }
 
 .image:hover {
@@ -644,11 +646,11 @@
 }
 
 #work-body .progress-text{
-  position: relative;
+  position: absolute;
   font-family: var(--unnamed-font-family-helvetica-neue);
-  font-size: 3vh;
+  font-size: 20px;
   font-style: italic;
-  width: 40vw;
-  left: 10vw;
-  top: -25vh;
+  width: 600px;
+  left: 200px;
+  top: 900px;
 }
